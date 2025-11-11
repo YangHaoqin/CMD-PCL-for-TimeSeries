@@ -12,3 +12,6 @@ Additionally, different from prior work passing a set of feature prototypes to t
 we develop prototype-guided contrastive learning (PCL) to alleviate the classifier bias on new
 classes, through extra contrastive constraints to push away the feature distributions of old feature prototypes from those of new classes features.
 Extensive experiments on three time-series datasets demonstrate that our method significantly outperforms other replay-free CIL approaches in raising average accuracy, as well as decreasing forgetting rate.
+
+
+This repository will provide the source code, training scripts, and evaluation tools for our proposed framework once the paper is officially released.

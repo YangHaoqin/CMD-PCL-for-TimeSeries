@@ -97,3 +97,4 @@ For online continual learning, set `epochs` to 1 and `er_mode` to `online`. (bet
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+If you have any questions, please contact us 2623858242@qq.com.

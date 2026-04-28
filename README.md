@@ -72,6 +72,18 @@ There are two functions to run experiments. Set the arguments in the correspondi
    ```sh
    python main_config.py
    ```
+2. Tune the hyperparameters on the `Val Tasks` first, and then use the best hyperparameters to run experiment on the `Exp Tasks`:
+   
+   ```sh
+   python main_tune.py --data DATA_NAME --agent AGENT_NAME --norm BN/LN
+   ```
+   To run multiple experiments, you can revise the script `shell/tune_and_exp.sh` and call it:
+   ```sh
+   nohup sh shell/tune_and_exp.sh &
+   ```
+    We run the experiment for multiple runs to compute the average performance. In each run, we randomize the class order and tune the best hyperparameters. So the hyperparameters are different across runs. The searching grid of hyperparamteters is set in `experiment/tune_config.py`. Experiment results will be saved as log into `result/tune_and_exp`.
+
+   
 ### Custom Experiment Setup
 Change the configurations in 
 * `utils/setup_elements.py`: Parameters for data and task stream, including Number of tasks / Number of classes per task / Task split

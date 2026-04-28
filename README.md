@@ -27,6 +27,7 @@ Extensive experiments on three time-series datasets demonstrate that our method 
 -------------------------------------------------------------------------------------------
 ## Dataset
 ### Available Datasets
+Create a “saved” directory under the ‘data’ directory, then place the three datasets in the saved directory.
 1. [UCI-HAR](https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones)
 2. [Dailysports](https://archive.ics.uci.edu/ml/datasets/daily+and+sports+activities) 
 3. [WISDM](https://archive.ics.uci.edu/dataset/507/wisdm+smartphone+and+smartwatch+activity+and+biometrics+dataset)
